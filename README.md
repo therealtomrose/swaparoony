@@ -69,7 +69,7 @@ Install requirements
 Configure Settings
 ==================
 
-- Make a copy of the settings template file and enter your local settings.
+- Make a copy of the settings template file and enter your local settings:
 
     cd ~/projects/swaparooni
     cp settings_local.template settings_local.py
