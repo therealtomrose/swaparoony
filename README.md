@@ -25,6 +25,7 @@ Clone git repo
 
 - Make a directory where you will store hangout (suggestions below)::
 
+
     mkdir ~/projects
     mkdir ~/projects/swaparooni
     cd ~/projects
