@@ -1,3 +1,7 @@
+# Swaparooni User added
+.Python
+include/
+
 *.py[cod]
 
 # C extensions
