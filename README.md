@@ -27,7 +27,7 @@ Clone git repo
 
 
     mkdir ~/projects
-    mkdir ~/projects/swaparooni
+    mkdir ~/projects/swaparoony
     cd ~/projects
     git clone https://github.com/therealtomrose/swaparoony.git swaparoony
 
@@ -50,14 +50,14 @@ Do this where the project will live e.g. 'hangout'
 
 
     cd ~/projects
-    virtualenv --no-site-packages swaparooni
+    virtualenv --no-site-packages swaparoony
     sudo pip install -U versiontools
 
 - configure the local python path::
 
 
-    echo 'export PYTHONPATH=$PYTHONPATH:~/projects/swaparooni' >> ~/projects/swaparooni/bin/activate
-    echo 'export PATH=~/projects/swaparooni:$PATH' >> ~/projects/swaparooni/bin/activate
+    echo 'export PYTHONPATH=$PYTHONPATH:~/projects/swaparoony' >> ~/projects/swaparoony/bin/activate
+    echo 'export PATH=~/projects/swaparoony:$PATH' >> ~/projects/swaparoony/bin/activate
 
 
 Install requirements
@@ -66,7 +66,7 @@ Install requirements
 - Run the pip installer with a requirements file.::
 
 
-    cd ~/projects/swaparooni
+    cd ~/projects/swaparoony
     source bin/activate
     sudo pip install -r requirements.txt
 
@@ -77,7 +77,7 @@ Configure Settings
 - Make a copy of the settings template file and enter your local settings:
 
 
-    cd ~/projects/swaparooni
+    cd ~/projects/swaparoony
     cp settings_local.template settings_local.py
 
 
@@ -90,11 +90,11 @@ Load Virtual Environment
 
 ::
 
-    cd ~/projects/swaparooni
+    cd ~/projects/swaparoony
     source bin/activate
 
 
-Run Swaparooni
+Run Swaparoony
 -----------
 
 ::
