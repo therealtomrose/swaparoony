@@ -42,16 +42,19 @@ Create virtual environment
 Do this where the project will live e.g. 'hangout'
 - install virtualenv::
 
+
     sudo easy_install pip
     sudo pip install virtualenv
 
 - install a new virtual environment in the directory where the project will live::
+
 
     cd ~/projects
     virtualenv --no-site-packages swaparooni
     sudo pip install -U versiontools
 
 - configure the local python path::
+
 
     echo 'export PYTHONPATH=$PYTHONPATH:~/projects/swaparooni' >> ~/projects/swaparooni/bin/activate
     echo 'export PATH=~/projects/swaparooni:$PATH' >> ~/projects/swaparooni/bin/activate
@@ -62,6 +65,7 @@ Install requirements
 
 - Run the pip installer with a requirements file.::
 
+
     cd ~/projects/swaparooni
     source bin/activate
     sudo pip install -r requirements.txt
@@ -71,6 +75,7 @@ Configure Settings
 ==================
 
 - Make a copy of the settings template file and enter your local settings:
+
 
     cd ~/projects/swaparooni
     cp settings_local.template settings_local.py
